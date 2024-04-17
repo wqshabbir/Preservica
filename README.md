@@ -26,7 +26,7 @@ This is .net core app which has set of APIs to allows CRUD operations on custome
 Also there is global exception handler has been registered in order to catch any unexpected exceptions. In the presence  of exact business requirements, we could have our own business exception classes created to transform errors to more readable/user freindly UI response.
 
 - **Frontend** <br>
-Frontend single page app setup using create-react-app with typescript setup has two main components rendered on the UI. First one is a container with form wrapped with four fields that allows you to add new customer details. And second container is a list item of all customers exists and added to the system. Each customer can be amended or delete from the listed customers.
+Frontend single page app setup using create-react-app with typescript template which has two main components rendered on the UI. First one is a container with form wrapped with four fields that allows you to add new customer details. And second component is a list item of all customers already exists and added to the system. Each customer can be amended or deleted from the listed customers component.
 
 - **Configuration** <br>
 Please setup ConnectionStrings:DefaultConnectionString key value to the database in the appsettings.json of the .net core project
